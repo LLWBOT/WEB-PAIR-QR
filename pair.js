@@ -5,20 +5,13 @@ let router = express.Router();
 const pino = require("pino");
 const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
-*SESSION GENERATED SUCCESSFULY* ✅
-
-*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/ULTRA-MD
-
-*Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/GlobalBotInc
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
-
-
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/GlobalTechInfo
-
-*ULTRA-MD--WHATTSAPP-BOT* 🥀
+*LLW MD SESSION GENERATED😚❤️*
+>LLW MD V1 BY LLW EDITZ
+*contact LLW* - 94705564619
+WHATSAPP CHANNEL - https://whatsapp.com/channel/0029Vb0s10t6BIEm7YKTHm3R
+LLW MD ERROR - https://wa.me/message/MG2ICS2ESNOSN1
+*THANKS FOR USING LLW MD V1
+📌️LLW MD V1 2025
 `;
 
 const { upload } = require('./mega');
