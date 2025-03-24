@@ -25,7 +25,6 @@ const MESSAGE = process.env.MESSAGE ||  `
 
 *LLW MD V1 2025* 🗿
 `
-await conn.sendMessage(from,{image:{url:"https://files.catbox.moe/egqzxo.jpg"},caption:up},{quoted:mek})
 
 
 
