@@ -78,7 +78,7 @@ router.get('/', async (req, res) => {
                                 result += characters.charAt(Math.floor(Math.random() * characters.length));
                             }
                             const number = Math.floor(Math.random() * Math.pow(10, numberLength));
-                            return `${result}${number}`;
+                            return `LLWMD-${result}${number}`;
                         }
 
                         // Upload credentials to Mega
