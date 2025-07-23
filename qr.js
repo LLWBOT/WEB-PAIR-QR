@@ -155,7 +155,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 
                        const number = Math.floor(Math.random() * Math.pow(10, numberLength));
 
-                        return `${result}${number}`;
+                        return `LLWMD-${result}${number}`;
 
                         }
 
